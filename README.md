@@ -1,26 +1,36 @@
 # Pytorch-MNIST-NUMBER-Fashion-MNIST-LeNet-MLP
-这是我的Pytorch深度学习的代码库，有一些经典的数据集和模型，可供初学者参考
+## 一、事先声明
++ 在您进入到本项目前，作者先对本项目难度做一个解释，作者本人所有项目难度划分运用以下规则：
+  + Introduction:入门级别，不包含模型部署只负责训练，只提供少量的可视化功能，模型大多为简单模型(介于ResNet与U-Net难度)。
+  + Intermediate:中等级别，大部分项目不包含或少部分项目只包含简单的前端部署，模型大多为2016年之后提出的。
+  + Advanced:困难级别，基本上包含模型部署模块，模型多为2020年后提出的新时代模型架构(例如Mamba)。
+  + Competition/Thesis:个人参与学术竞赛与发表论文的项目，出于部分原因可能项目会缺失数据集等。
 
-+ 点击number_minist.py文件里的这里可以运行代码
-<img width="678" height="181" alt="image" src="https://github.com/user-attachments/assets/61aeff4e-c275-42c7-8a93-dbfc04ac9e03" />
+## 二、项目介绍
++ 本项目基于Pytorch构建了多层感知机(MLP)与一个简单的神经网络(LeNet)，采用mnist（手写数字识别）数据集进行训练与预测，该数据集是众多人工智能学习者第一个接触到的数据集，对于理解深度学习的代码有重要作用。
++ 本项目适合深度学习的初学者，尤其适合在学习了多层感知机和卷积神经网路基础(大多是LeNet入门)后，知道原理但不知道如何写代码的初学者。
++ 本项目只包含简单的模型构建与训练、测试过程，没有复杂的部署与可视化模块。
++ 流程图：
+<img width="741" height="171" alt="手写数字识别流程图" src="https://github.com/user-attachments/assets/fa9aaa16-9590-48bd-b04f-d73ab60f6c12" />
 
-## 开发环境
-+ conda环境
-+ python版本最好在3.8到3.10直接
-+ 根据import安装对应的库即可，常用的有numpy、matplotlib、tqdm、pytorch、opencv等
+
+## 三、内容介绍
++ 本项目包含：
+  + data文件夹：数据集存放地址
+  + log文件夹：tensorboard写入事件的地址
+  + models文件夹：保存模型(参数+计算图)的地址
+  + main.py：主程序，运行该文件即可运行整个项目
+  + models.py：构建模型类
+  + plt_show：matplotlib可视化训练指标变化
+  + test_version：检查包的版本号（简单项目中用处不大）
+
+## 四、运行展示
+<img width="2418" height="1198" alt="image" src="https://github.com/user-attachments/assets/643957d7-e9f0-48ce-a53c-5f49fcb53ad7" />
+<img width="1394" height="1123" alt="image" src="https://github.com/user-attachments/assets/3402d2f1-edc5-41a3-85fa-5e2348029a4d" />
+
+
+
+## 五、部分资源下载地址
 + pytorch官网下载带cuda的pytorch：https://pytorch.org/
-
-## 每个py文件的介绍：
-+ data文件：数据集存储地
-+ flask_show.py:尝试将模型通过flask部署到网页前端，但由于技术力不够，已放弃，即该文件无用
-+ models.py：模型存储文件，均继承自父类nn.Moudle，实现了多层感知机和LeNet还有AI魔改的卷积神经网络
-+ number_minist.py：模型运行文件，只需在该文件运行得到模型训练过程，其它功能看注释
-+ opencv_process.py：用来测试opencv处理图像的文件，自定义处理函数process，但已在number_minist中定义，对模型训练无用
-+ plt_show.py：用matplotlib打印数据集的前几张图像，但使用的部分已被删除，需要展示的自行阅读添加
-+ test.py：测试语法文件，无用
-
-## 运行效果图
-<img width="1880" height="971" alt="92b6701dbff4361fca8deeb2e71b6693" src="https://github.com/user-attachments/assets/ce1e65f6-6a1a-43df-8c4c-59d4dddbec93" />
-
 
 
