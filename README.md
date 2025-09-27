@@ -16,6 +16,10 @@
 
 ## 三、内容介绍
 + 本项目包含：
+  + requirements.txt：包的版本，运行下面命令即可下载到虚拟环境中，pytorch请前往官网下载
+ ```txt
+pip install -r requirements.txt
+```
   + data文件夹：数据集存放地址
   + log文件夹：tensorboard写入事件的地址
   + models文件夹：保存模型(参数+计算图)的地址
