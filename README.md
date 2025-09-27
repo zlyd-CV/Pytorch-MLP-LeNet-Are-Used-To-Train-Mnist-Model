@@ -1,4 +1,4 @@
-# Pytorch-MNIST-NUMBER-Fashion-MNIST-LeNet-MLP
+# Introduction-Pytorch-MLP-LeNet-Are-Used-To-Train-Mnist-Model
 ## 一、事先声明
 + 在您进入到本项目前，作者先对本项目难度做一个解释，作者本人所有项目难度划分运用以下规则：
   + Introduction:入门级别，不包含模型部署只负责训练，只提供少量的可视化功能，模型大多为简单模型(介于ResNet与U-Net难度)。
