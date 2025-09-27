@@ -11,8 +11,8 @@
 + 本项目适合深度学习的初学者，尤其适合在学习了多层感知机和卷积神经网路基础(大多是LeNet入门)后，知道原理但不知道如何写代码的初学者。
 + 本项目只包含简单的模型构建与训练、测试过程，没有复杂的部署与可视化模块。
 + 流程图：
-<img width="741" height="171" alt="手写数字识别流程图" src="https://github.com/user-attachments/assets/fa9aaa16-9590-48bd-b04f-d73ab60f6c12" />
 
+![手写数字识别效果示意图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/ba2f7f23e1f71c505679808ed7bbe21890253f17/Introduction-Pytorch-MLP-LeNet-Are-Used-To-Train-Mnist-Model/%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB%E6%B5%81%E7%A8%8B%E5%9B%BE.svg)
 
 ## 三、内容介绍
 + 本项目包含：
