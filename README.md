@@ -25,10 +25,8 @@
   + test_version：检查包的版本号（简单项目中用处不大）
 
 ## 四、运行展示
-<img width="2418" height="1198" alt="image" src="https://github.com/user-attachments/assets/643957d7-e9f0-48ce-a53c-5f49fcb53ad7" />
-<img width="1394" height="1123" alt="image" src="https://github.com/user-attachments/assets/3402d2f1-edc5-41a3-85fa-5e2348029a4d" />
-
-
+![运行效果图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/bbad62f3ea8c1fc71b9404c5b4536bfb4bf82065/Introduction-Pytorch-MLP-LeNet-Are-Used-To-Train-Mnist-Model/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20132525.png)
+![运行效果图](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/bbad62f3ea8c1fc71b9404c5b4536bfb4bf82065/Introduction-Pytorch-MLP-LeNet-Are-Used-To-Train-Mnist-Model/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-09-27%20132805.png)
 
 ## 五、部分资源下载地址
 + pytorch官网下载带cuda的pytorch：https://pytorch.org/
