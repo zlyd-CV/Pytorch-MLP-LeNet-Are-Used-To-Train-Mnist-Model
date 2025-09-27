@@ -16,7 +16,7 @@
 
 ## 三、内容介绍
 + 本项目包含：
-  + requirements.txt：包的版本，运行下面命令即可下载到虚拟环境中，pytorch请前往官网下载
++ requirements.txt：包的版本，运行下面命令即可下载到虚拟环境中，pytorch请前往官网下载
  ```txt
 pip install -r requirements.txt
 ```
