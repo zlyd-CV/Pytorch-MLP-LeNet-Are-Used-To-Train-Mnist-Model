@@ -1,4 +1,4 @@
-# Pytorch-MLP-LeNet-Are-Used-To-Train-Mnist-Model
+# MLP-LeNet-MNist
 
 ## 一、项目介绍
 + 本项目基于Pytorch构建了多层感知机(MLP)与一个简单的神经网络(LeNet)，采用mnist（手写数字识别）数据集进行训练与预测，该数据集是众多人工智能学习者第一个接触到的数据集，对于理解深度学习的代码有重要作用。
